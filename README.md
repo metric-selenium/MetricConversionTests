@@ -24,16 +24,16 @@ Maria, a Brazilian amateur cook, enjoys trying out new recipes from the NY Times
 
 **Acceptance Criteria:**
 
-	1.	Input Field for Fahrenheit:
-	-	Maria can enter the temperature in Fahrenheit into an input field.
-	2.	Convert Button:
-	-	After entering the temperature, Maria can click a “Convert” button to trigger the conversion.
-	3.	Output Field for Celsius:
-	-	The converted temperature in Celsius is displayed in an output field.
-	4.	Accurate Conversion Formula:
-	-	The conversion uses the correct formula: $ Celsius = \frac{(Fahrenheit - 32) \times 5}{9} $
-	5.	User-Friendly Interface:
-	-	The interface is simple and intuitive, allowing Maria to perform conversions quickly and easily while cooking.
+1.	Input Field for Fahrenheit:
+-	Maria can enter the temperature in Fahrenheit into an input field.
+2.	Convert Button:
+-	After entering the temperature, Maria can click a “Convert” button to trigger the conversion.
+3.	Output Field for Celsius:
+-	The converted temperature in Celsius is displayed in an output field.
+4.	Accurate Conversion Formula:
+-	The conversion uses the correct formula: $Celsius = \frac{(Fahrenheit - 32) \times 5}{9}$
+5.	User-Friendly Interface:
+-	The interface is simple and intuitive, allowing Maria to perform conversions quickly and easily while cooking.
 
 **Example Scenario:**
 
