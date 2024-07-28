@@ -2,18 +2,18 @@
 A simple Test, using C#, xUnit, and Selenium.
 
 
-Title:
+*Title:*
 
 Convert Fahrenheit to Celsius for Cooking Recipes
 
-As a:
+*As a:*
 
 Brazilian amateur cook
 
-I want to:
+*I want to:*
 
 Convert Fahrenheit temperatures to Celsius
 
-So that:
+*So that:*
 
 I can accurately follow NY Times Cooking recipes using my oven and thermometer which are in Celsius
