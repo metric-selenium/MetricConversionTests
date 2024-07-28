@@ -31,7 +31,7 @@ Maria, a Brazilian amateur cook, enjoys trying out new recipes from the NY Times
 	3.	Output Field for Celsius:
 	-	The converted temperature in Celsius is displayed in an output field.
 	4.	Accurate Conversion Formula:
-	-	The conversion uses the correct formula: Celsius = \frac{(Fahrenheit - 32) \times 5}{9}
+	-	The conversion uses the correct formula: $ Celsius = \frac{(Fahrenheit - 32) \times 5}{9} $
 	5.	User-Friendly Interface:
 	-	The interface is simple and intuitive, allowing Maria to perform conversions quickly and easily while cooking.
 
