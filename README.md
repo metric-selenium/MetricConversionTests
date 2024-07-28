@@ -47,10 +47,10 @@ Maria, a Brazilian amateur cook, enjoys trying out new recipes from the NY Times
 |    Fahrenheit to Celsius Converter        |
 |                                           |
 |    Enter Temperature in Fahrenheit:       |
-|    \[          350           ]             |
+|    [          350           ]             |
 |                                           |
 |    Temperature in Celsius:                |
-|    \[         176.67         ]             |
+|    [         176.67         ]             |
 |                                           |
 +-------------------------------------------+
 ```
