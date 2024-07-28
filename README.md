@@ -39,4 +39,18 @@ Maria, a Brazilian amateur cook, enjoys trying out new recipes from the NY Times
 
 Maria, a Brazilian amateur cook, enjoys trying out new recipes from the NY Times Cooking website. However, she often finds herself confused when it comes to temperature settings, as the recipes are in Fahrenheit and her kitchen appliances use Celsius. She needs a simple and reliable way to convert Fahrenheit temperatures to Celsius instantly as she types the Fahrenheit value, so she can follow the recipes accurately without the hassle of manual calculations.
 
+**Mockup of User Interface:**
 
+```
++-------------------------------------------+
+|                                           |
+|    Fahrenheit to Celsius Converter        |
+|                                           |
+|    Enter Temperature in Fahrenheit:       |
+|    \[          350           ]             |
+|                                           |
+|    Temperature in Celsius:                |
+|    \[         176.67         ]             |
+|                                           |
++-------------------------------------------+
+```
