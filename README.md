@@ -55,3 +55,28 @@ Maria, a Brazilian amateur cook, enjoys trying out new recipes from the NY Times
 |                                           |
 +-------------------------------------------+
 ```
+
+## Test Plan for Temperature Conversion Project ##
+
+### 1. Introduction ##
+
+The objective of this test plan is to ensure that the temperature conversion application functions correctly and meets the end-user’s needs. This plan will be executed whenever there is a new release or when a user reports a bug. The focus of the test will be to verify the accuracy of the temperature conversions from Fahrenheit to Celsius and ensure that the user interface is intuitive and responsive.
+
+### 2. Scope and Objectives ### 
+
+2.1 Scope
+
+	•	Test the functionality of temperature conversion.
+	•	Verify the accuracy of conversions.
+	•	Ensure the user interface responds correctly to inputs.
+	•	Test the application on different browsers and devices.
+	•	Retest the application upon new releases or reported bugs.
+
+2.2 Objectives
+
+	•	Ensure that conversions from Fahrenheit to Celsius are accurate.
+	•	Ensure the application responds instantly to user inputs.
+	•	Verify the application’s compatibility with different browsers and devices.
+	•	Identify and fix any bugs or usability issues.
+	•	Validate fixes and improvements after a new release or bug fix.
+
