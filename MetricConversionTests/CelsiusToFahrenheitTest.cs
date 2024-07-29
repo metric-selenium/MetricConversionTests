@@ -6,7 +6,8 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
-
+using WebDriverManager;
+using WebDriverManager.DriverConfigs.Impl;
 
 public class CelsiusToFahrenheitTest : IDisposable
 {
@@ -16,10 +17,13 @@ public class CelsiusToFahrenheitTest : IDisposable
 
     public CelsiusToFahrenheitTest()
     {
-        driver = new ChromeDriver();
-        driver.Manage().Window.Maximize();
-        wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+        new DriverManager().SetUpDriver(new ChromeConfig());
 
+        ChromeOptions  options = new ChromeOptions();
+        options.AddArguments("--headless");
+        
+        driver = new ChromeDriver(options);
+        wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
     }
 
     [Theory]
