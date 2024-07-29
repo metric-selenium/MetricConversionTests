@@ -1,7 +1,7 @@
 [![.NET](https://github.com/metric-selenium/MetricConversionTests/actions/workflows/test.yml/badge.svg)](https://github.com/metric-selenium/MetricConversionTests/actions/workflows/test.yml)
 
 # super-duper-engine
-A simple Test, using C#, xUnit, and Selenium.
+A simple test, using C#, xUnit, WebDriverManager, and Selenium.
 
 ## Requirements ##
 
