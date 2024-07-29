@@ -83,3 +83,9 @@ The objective of this test plan is to ensure that the temperature conversion app
 	•	Identify and fix any bugs or usability issues.
 	•	Validate fixes and improvements after a new release or bug fix.
 
+## System Under Test ##
+
+The System Under Test (SUT) is a web application in production at:
+https://www.metric-conversions.org/temperature/celsius-to-fahrenheit.htm
+
+
