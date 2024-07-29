@@ -57,8 +57,7 @@ Maria, a Brazilian amateur cook, enjoys trying out new recipes from the NY Times
 |                                           |
 +-------------------------------------------+
 ```
-OR
-![1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/masmangan/uml-activity-object-flow/main/figure-15-01.puml)
+
 
 ## Test Plan for Temperature Conversion Project ##
 
