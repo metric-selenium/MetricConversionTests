@@ -24,5 +24,11 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
+    - name: Get Chrome
+      run: wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    - name: Install 
+      run: sudo dpkg -i google-chrome-stable_current_amd64.deb
+    - name: Complete install
+      run: sudo apt-get install -f
     - name: Test
       run: dotnet test --no-build --verbosity normal
