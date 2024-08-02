@@ -92,3 +92,8 @@ https://www.metric-conversions.org/temperature/celsius-to-fahrenheit.htm
 ## Test Setup ##
 
 (TODO: place deployment diagram here)
+# Selenium Test Setup Diagram
+
+This diagram shows the setup of our Selenium testing environment.
+
+![Selenium Test Setup](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/metric-selenium/MetricConversionTests/main/doc/diagrams/setup.puml)
