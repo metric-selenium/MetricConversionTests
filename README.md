@@ -89,3 +89,6 @@ The System Under Test (SUT) is a web application in production at:
 https://www.metric-conversions.org/temperature/celsius-to-fahrenheit.htm
 
 
+## Test Setup ##
+
+(TODO: place deployment diagram here)
