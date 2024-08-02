@@ -1,0 +1,41 @@
+@startuml
+title Selenium Test Setup
+note "Email: marco.mangan@pucrs.br\nDate: 2024-08-02" as N
+
+node "Development Machine" {
+    component "Visual Studio Code" <<version 1.91.1>> {
+    }
+
+    component ".NET 8.0 Runtime" {
+        component "Selenium Test Project" {
+            [coverlet.collector <<version 6.0.0>>]
+            [ExtentReports <<version 5.0.4>>]
+            [Microsoft.NET.Test.Sdk <<version 17.10.0>>]
+            [Selenium.WebDriver <<version 4.23.0>>]
+            [Selenium.ChromeDriver <<version 127.0.6533.7200>>]
+            [WebDriverManager <<version 2.17.4>>]
+            [xunit <<version 2.9.0>>]
+            [xunit.runner.visualstudio <<version 2.8.2>>]
+        }
+        component "ChromeDriver" <<version 127.0.6533.7200>> {
+        }
+    }
+
+    node "Chrome Browser" {
+        [Chrome <<version 127.0>> (ARM 64)]
+    }
+}
+
+node "GitHub" {
+    component "GitHub Issues"
+    component "GitHub Actions"
+    component "GitHub Code"
+    component "GitHub Codespaces"
+}
+
+"Development Machine" --> "ChromeDriver": Controls
+"ChromeDriver" --> "Chrome Browser": Automates
+"Development Machine" --> "GitHub": Integrates with
+
+N -[hidden]-> "Development Machine"
+@enduml
